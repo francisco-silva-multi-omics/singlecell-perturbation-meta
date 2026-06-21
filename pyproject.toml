@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "singlecell-perturbation-meta"
+version = "0.1.0"
+description = "Reproducible acquisition tools for single-cell perturbation datasets"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+scmeta-fetch = "scmeta_fetch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

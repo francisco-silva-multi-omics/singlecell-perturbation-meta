@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Downloaded and generated data
+data/
+metadata/manifests/*.json
+metadata/receipts/*.json
+
