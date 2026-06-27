@@ -72,7 +72,9 @@ def download_artifact(
     if offset > artifact.size_bytes:
         raise DownloadError(f"Partial file is larger than expected: {partial}")
 
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/octet-stream"}
+    # Zenodo's content endpoint returns 406 when an explicit octet-stream
+    # Accept header is sent, even though the successful response uses that type.
+    headers = {"User-Agent": USER_AGENT}
     if offset:
         headers["Range"] = f"bytes={offset}-"
     request = Request(artifact.url, headers=headers)
@@ -114,4 +116,3 @@ def write_receipt(results: list[DownloadResult], path: Path) -> None:
         json.dump([asdict(item) for item in sorted(results, key=lambda x: x.name)], handle, indent=2)
         handle.write("\n")
     temporary.replace(path)
-

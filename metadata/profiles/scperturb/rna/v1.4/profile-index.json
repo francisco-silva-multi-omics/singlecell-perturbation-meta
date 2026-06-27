@@ -1,0 +1,64 @@
+{
+  "profile_count": 5,
+  "profiles": [
+    {
+      "dataset_id": "adamson",
+      "h5ad_path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+      "n_obs": 65257,
+      "n_vars": 32738,
+      "profile_path": "metadata\\profiles\\scperturb\\rna\\v1.4\\adamson.profile.json",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "dataset_id": "dixit",
+      "h5ad_path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+      "n_obs": 28034,
+      "n_vars": 23111,
+      "profile_path": "metadata\\profiles\\scperturb\\rna\\v1.4\\dixit.profile.json",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "dataset_id": "norman",
+      "h5ad_path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+      "n_obs": 111445,
+      "n_vars": 33694,
+      "profile_path": "metadata\\profiles\\scperturb\\rna\\v1.4\\norman.profile.json",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "missing recommended gene identifier columns: ensembl_id, gene_id, gene_name, gene_symbol",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "dataset_id": "replogle",
+      "h5ad_path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\ReplogleWeissman2022_K562_essential.h5ad",
+      "n_obs": 310385,
+      "n_vars": 8563,
+      "profile_path": "metadata\\profiles\\scperturb\\rna\\v1.4\\replogle.profile.json",
+      "warnings": [
+        "missing recommended obs columns: batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "dataset_id": "sciplex3",
+      "h5ad_path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+      "n_obs": 762795,
+      "n_vars": 110983,
+      "profile_path": "metadata\\profiles\\scperturb\\rna\\v1.4\\sciplex3.profile.json",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, guide_id, n_counts, n_genes, perturbation_target",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    }
+  ],
+  "release_id": "scperturb_mvp_v0.1",
+  "schema_version": "1.0",
+  "source_manifest": "metadata\\releases\\scperturb_mvp_v0.1.json"
+}

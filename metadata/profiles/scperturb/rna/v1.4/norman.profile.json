@@ -1,0 +1,658 @@
+{
+  "counts": {
+    "counts_location_inferred": "X",
+    "layers": [],
+    "raw_present": false,
+    "x_present": true
+  },
+  "dataset_id": "norman",
+  "file_sha256": null,
+  "file_size_bytes": 698680199,
+  "h5ad_attrs": {
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0"
+  },
+  "matrix": {
+    "density": 0.09629292707532343,
+    "dtype": "float32",
+    "encoding": "csc_matrix",
+    "integer_like_sample": true,
+    "n_obs": 111445,
+    "n_vars": 33694,
+    "nnz": 361582621,
+    "sampled_values": 200000,
+    "shape": [
+      111445,
+      33694
+    ]
+  },
+  "obs": {
+    "column_names": [
+      "UMI_count",
+      "_index",
+      "cancer",
+      "cell_line",
+      "celltype",
+      "coverage",
+      "disease",
+      "gemgroup",
+      "good_coverage",
+      "guide_id",
+      "ncounts",
+      "ngenes",
+      "nperts",
+      "number_of_cells",
+      "organism",
+      "percent_mito",
+      "percent_ribo",
+      "perturbation",
+      "perturbation_type",
+      "read_count",
+      "tissue_type"
+    ],
+    "column_order": [
+      "guide_id",
+      "read_count",
+      "UMI_count",
+      "coverage",
+      "gemgroup",
+      "good_coverage",
+      "number_of_cells",
+      "tissue_type",
+      "cell_line",
+      "cancer",
+      "disease",
+      "perturbation_type",
+      "celltype",
+      "organism",
+      "perturbation",
+      "nperts",
+      "ngenes",
+      "ncounts",
+      "percent_mito",
+      "percent_ribo"
+    ],
+    "columns": [
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "UMI_count",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 338
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "_index",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 111445
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "cancer",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 1
+      },
+      {
+        "categories_sample": [
+          "K562"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "cell_line",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "lymphoblasts"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "celltype",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "coverage",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 41354
+      },
+      {
+        "categories_sample": [
+          "chronic myelogenous leukemia"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "disease",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "gemgroup",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 8
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "good_coverage",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "categories_sample": [
+          "AHR_FEV;AHR_FEV",
+          "AHR_KLF1;AHR_KLF1",
+          "AHR_NegCtrl0;AHR_NegCtrl0",
+          "ARID1A_NegCtrl0;ARID1A_NegCtrl0",
+          "ARRDC3_NegCtrl0;ARRDC3_NegCtrl0",
+          "ATL1_NegCtrl0;ATL1_NegCtrl0",
+          "BAK1_NegCtrl0;BAK1_NegCtrl0",
+          "BCL2L11_BAK1;BCL2L11_BAK1",
+          "BCL2L11_NegCtrl0;BCL2L11_NegCtrl0",
+          "BCL2L11_TGFBR2;BCL2L11_TGFBR2",
+          "BCORL1_NegCtrl0;BCORL1_NegCtrl0",
+          "BPGM_NegCtrl0;BPGM_NegCtrl0",
+          "BPGM_SAMD1;BPGM_SAMD1",
+          "BPGM_ZBTB1;BPGM_ZBTB1",
+          "C3orf72_FOXL2;C3orf72_FOXL2",
+          "C3orf72_NegCtrl0;C3orf72_NegCtrl0",
+          "C19orf26_NegCtrl0;C19orf26_NegCtrl0",
+          "CBFA2T3_NegCtrl0;CBFA2T3_NegCtrl0",
+          "CBL_CNN1;CBL_CNN1",
+          "CBL_NegCtrl0;CBL_NegCtrl0"
+        ],
+        "category_count": 290,
+        "dtype": "int16",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "guide_id",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 25082
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ngenes",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 4328
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "nperts",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 3
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "number_of_cells",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 8
+      },
+      {
+        "categories_sample": [
+          "human"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "organism",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_mito",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 108814
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_ribo",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 110420
+      },
+      {
+        "categories_sample": [
+          "AHR",
+          "AHR_FEV",
+          "AHR_KLF1",
+          "ARID1A",
+          "ARRDC3",
+          "ATL1",
+          "BAK1",
+          "BCL2L11",
+          "BCL2L11_BAK1",
+          "BCL2L11_TGFBR2",
+          "BCORL1",
+          "BPGM",
+          "BPGM_SAMD1",
+          "BPGM_ZBTB1",
+          "C3orf72",
+          "C3orf72_FOXL2",
+          "C19orf26",
+          "CBFA2T3",
+          "CBL",
+          "CBL_CNN1"
+        ],
+        "category_count": 237,
+        "dtype": "int16",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "CRISPR"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation_type",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "read_count",
+        "shape": [
+          111445
+        ],
+        "storage": "dataset",
+        "unique_count": 4592
+      },
+      {
+        "categories_sample": [
+          "cell_line"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "tissue_type",
+        "shape": [
+          111445
+        ],
+        "storage": "group"
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "_index",
+    "n_rows": 111445,
+    "summaries": {
+      "guide_id": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 3532,
+            "value": "NegCtrl10_NegCtrl0;NegCtrl10_NegCtrl0"
+          },
+          {
+            "count": 2948,
+            "value": "NegCtrl1_NegCtrl0;NegCtrl1_NegCtrl0"
+          },
+          {
+            "count": 2839,
+            "value": "NegCtrl11_NegCtrl0;NegCtrl11_NegCtrl0"
+          },
+          {
+            "count": 2536,
+            "value": "NegCtrl0_NegCtrl0;NegCtrl0_NegCtrl0"
+          },
+          {
+            "count": 1219,
+            "value": "CEBPE_RUNX1T1;CEBPE_RUNX1T1"
+          },
+          {
+            "count": 1197,
+            "value": "KLF1_NegCtrl0;KLF1_NegCtrl0"
+          },
+          {
+            "count": 1167,
+            "value": "TBX3_TBX2;TBX3_TBX2"
+          },
+          {
+            "count": 1000,
+            "value": "SLC4A1_NegCtrl0;SLC4A1_NegCtrl0"
+          },
+          {
+            "count": 905,
+            "value": "ETS2_CNN1;ETS2_CNN1"
+          },
+          {
+            "count": 796,
+            "value": "UBASH3B_OSR2;UBASH3B_OSR2"
+          },
+          {
+            "count": 787,
+            "value": "DUSP9_ETS2;DUSP9_ETS2"
+          },
+          {
+            "count": 770,
+            "value": "NegCtrl0_BAK1;NegCtrl0_BAK1"
+          },
+          {
+            "count": 763,
+            "value": "NegCtrl0_KLF1;NegCtrl0_KLF1"
+          },
+          {
+            "count": 750,
+            "value": "NegCtrl0_ETS2;NegCtrl0_ETS2"
+          },
+          {
+            "count": 731,
+            "value": "DUSP9_NegCtrl0;DUSP9_NegCtrl0"
+          },
+          {
+            "count": 687,
+            "value": "BAK1_NegCtrl0;BAK1_NegCtrl0"
+          },
+          {
+            "count": 667,
+            "value": "SET_KLF1;SET_KLF1"
+          },
+          {
+            "count": 667,
+            "value": "NegCtrl0_CEBPE;NegCtrl0_CEBPE"
+          },
+          {
+            "count": 663,
+            "value": "CBL_NegCtrl0;CBL_NegCtrl0"
+          },
+          {
+            "count": 658,
+            "value": "SET_CEBPE;SET_CEBPE"
+          }
+        ],
+        "unique_count": 290
+      },
+      "perturbation": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 11855,
+            "value": "control"
+          },
+          {
+            "count": 1960,
+            "value": "KLF1"
+          },
+          {
+            "count": 1457,
+            "value": "BAK1"
+          },
+          {
+            "count": 1233,
+            "value": "CEBPE"
+          },
+          {
+            "count": 1219,
+            "value": "CEBPE_RUNX1T1"
+          },
+          {
+            "count": 1202,
+            "value": "UBASH3B"
+          },
+          {
+            "count": 1201,
+            "value": "ETS2"
+          },
+          {
+            "count": 1167,
+            "value": "TBX3_TBX2"
+          },
+          {
+            "count": 1003,
+            "value": "OSR2"
+          },
+          {
+            "count": 1000,
+            "value": "SLC4A1"
+          },
+          {
+            "count": 986,
+            "value": "SET"
+          },
+          {
+            "count": 937,
+            "value": "ELMSAN1"
+          },
+          {
+            "count": 905,
+            "value": "ETS2_CNN1"
+          },
+          {
+            "count": 878,
+            "value": "MAP2K6"
+          },
+          {
+            "count": 874,
+            "value": "FOXF1"
+          },
+          {
+            "count": 872,
+            "value": "C19orf26"
+          },
+          {
+            "count": 851,
+            "value": "FOXA1"
+          },
+          {
+            "count": 819,
+            "value": "UBASH3A"
+          },
+          {
+            "count": 796,
+            "value": "UBASH3B_OSR2"
+          },
+          {
+            "count": 787,
+            "value": "DUSP9_ETS2"
+          }
+        ],
+        "unique_count": 237
+      }
+    }
+  },
+  "path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+  "schema_version": "1.0",
+  "source_record": {
+    "admission_status": "pass_documented_subset",
+    "analysis_input": {
+      "mode": "passthrough",
+      "path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+      "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+      "size_bytes": 698680199,
+      "storage": "h5ad"
+    },
+    "cell_counts": {
+      "after_curation": null,
+      "before_curation": null,
+      "excluded_by_curation": null,
+      "profile_n_obs": 111445,
+      "profile_n_vars": 33694
+    },
+    "dataset_id": "norman",
+    "lineage": {
+      "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+      "curation_mode": "passthrough",
+      "download_artifact": {
+        "name": "NormanWeissman2019_filtered.h5ad",
+        "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+        "size_bytes": 698680199,
+        "status": "downloaded"
+      },
+      "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+      "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+      "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+      "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\norman.profile.json"
+    },
+    "release_id": "scperturb_mvp_v0.1",
+    "warnings": [
+      "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+      "missing recommended gene identifier columns: ensembl_id, gene_id, gene_name, gene_symbol",
+      "no raw object or count layer found; X is treated as counts"
+    ]
+  },
+  "var": {
+    "column_names": [
+      "_index",
+      "ensemble_id",
+      "ncells",
+      "ncounts"
+    ],
+    "column_order": [
+      "ensemble_id",
+      "ncounts",
+      "ncells"
+    ],
+    "columns": [
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "_index",
+        "shape": [
+          33694
+        ],
+        "storage": "dataset",
+        "unique_count": 33694
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "ensemble_id",
+        "shape": [
+          33694
+        ],
+        "storage": "dataset",
+        "unique_count": 33694
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncells",
+        "shape": [
+          33694
+        ],
+        "storage": "dataset",
+        "unique_count": 11764
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          33694
+        ],
+        "storage": "dataset",
+        "unique_count": 12072
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "_index",
+    "n_rows": 33694,
+    "summaries": {}
+  },
+  "warnings": [
+    "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+    "missing recommended gene identifier columns: ensembl_id, gene_id, gene_name, gene_symbol",
+    "no raw object or count layer found; X is treated as counts"
+  ]
+}

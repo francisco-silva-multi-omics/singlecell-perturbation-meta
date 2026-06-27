@@ -1,0 +1,672 @@
+{
+  "counts": {
+    "counts_location_inferred": "X",
+    "layers": [],
+    "raw_present": false,
+    "x_present": true
+  },
+  "dataset_id": "dixit",
+  "file_sha256": null,
+  "file_size_bytes": 220898984,
+  "h5ad_attrs": {
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0"
+  },
+  "matrix": {
+    "density": 0.15967248668143552,
+    "dtype": "float64",
+    "encoding": "csc_matrix",
+    "integer_like_sample": true,
+    "n_obs": 28034,
+    "n_vars": 23111,
+    "nnz": 103450810,
+    "sampled_values": 200000,
+    "shape": [
+      28034,
+      23111
+    ]
+  },
+  "obs": {
+    "column_names": [
+      "_index",
+      "cancer",
+      "cell_line",
+      "celltype",
+      "disease",
+      "guide_id",
+      "moi",
+      "ncounts",
+      "ngenes",
+      "nperts",
+      "organism",
+      "percent_mito",
+      "percent_ribo",
+      "perturbation",
+      "perturbation_type",
+      "target",
+      "time",
+      "tissue_type"
+    ],
+    "column_order": [
+      "perturbation",
+      "target",
+      "moi",
+      "time",
+      "cell_line",
+      "celltype",
+      "perturbation_type",
+      "cancer",
+      "disease",
+      "tissue_type",
+      "organism",
+      "guide_id",
+      "ncounts",
+      "ngenes",
+      "percent_mito",
+      "percent_ribo",
+      "nperts"
+    ],
+    "columns": [
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "_index",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 28034
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "cancer",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 1
+      },
+      {
+        "categories_sample": [
+          "K562"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "cell_line",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "lymphoblasts"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "celltype",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "myelogenous leukemia"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "disease",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "p_INTERGENIC216151",
+          "p_INTERGENIC393453",
+          "p_INTERGENIC1144056",
+          "p_INTERGENIC1216445",
+          "p_sgCREB1_2",
+          "p_sgCREB1_4",
+          "p_sgCREB1_5",
+          "p_sgE2F4_6",
+          "p_sgE2F4_7",
+          "p_sgEGR1_2",
+          "p_sgEGR1_3",
+          "p_sgEGR1_4",
+          "p_sgELF1_1",
+          "p_sgELF1_2",
+          "p_sgELF1_4",
+          "p_sgELF1_5",
+          "p_sgELK1_1",
+          "p_sgELK1_6",
+          "p_sgELK1_7",
+          "p_sgETS1_3"
+        ],
+        "category_count": 30,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "guide_id",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "normal"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "moi",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 17353
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ngenes",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 4101
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "nperts",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "categories_sample": [
+          "human"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "organism",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_mito",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 27908
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_ribo",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 27968
+      },
+      {
+        "categories_sample": [
+          "control",
+          "nan",
+          "p-sgCREB1-2",
+          "p-sgCREB1-4",
+          "p-sgCREB1-5",
+          "p-sgE2F4-6",
+          "p-sgE2F4-7",
+          "p-sgEGR1-2",
+          "p-sgEGR1-3",
+          "p-sgEGR1-4",
+          "p-sgELF1-1",
+          "p-sgELF1-2",
+          "p-sgELF1-4",
+          "p-sgELF1-5",
+          "p-sgELK1-1",
+          "p-sgELK1-6",
+          "p-sgELK1-7",
+          "p-sgETS1-3",
+          "p-sgETS1-5",
+          "p-sgGABPA-1"
+        ],
+        "category_count": 28,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "CRISPR"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation_type",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "CREB1",
+          "E2F4",
+          "EGR1",
+          "ELF1",
+          "ELK1",
+          "ETS1",
+          "GABPA",
+          "INTERGENIC216151",
+          "INTERGENIC393453",
+          "INTERGENIC1144056",
+          "INTERGENIC1216445",
+          "IRF1",
+          "NR2C2",
+          "YY1"
+        ],
+        "category_count": 14,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "target",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "time",
+        "shape": [
+          28034
+        ],
+        "storage": "dataset",
+        "unique_count": 1
+      },
+      {
+        "categories_sample": [
+          "cell_line"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "tissue_type",
+        "shape": [
+          28034
+        ],
+        "storage": "group"
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "_index",
+    "n_rows": 28034,
+    "summaries": {
+      "guide_id": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 1838,
+            "value": "p_INTERGENIC393453"
+          },
+          {
+            "count": 1443,
+            "value": "p_sgELF1_2"
+          },
+          {
+            "count": 1274,
+            "value": "p_INTERGENIC216151"
+          },
+          {
+            "count": 1254,
+            "value": "p_INTERGENIC1144056"
+          },
+          {
+            "count": 1201,
+            "value": "p_sgGABPA_1"
+          },
+          {
+            "count": 1143,
+            "value": "p_sgELF1_5"
+          },
+          {
+            "count": 1072,
+            "value": "p_sgYY1_3"
+          },
+          {
+            "count": 1058,
+            "value": "p_sgELK1_6"
+          },
+          {
+            "count": 1015,
+            "value": "p_INTERGENIC1216445"
+          },
+          {
+            "count": 999,
+            "value": "p_sgNR2C2_5"
+          },
+          {
+            "count": 964,
+            "value": "p_sgETS1_5"
+          },
+          {
+            "count": 922,
+            "value": "p_sgYY1_10"
+          },
+          {
+            "count": 911,
+            "value": "p_sgCREB1_4"
+          },
+          {
+            "count": 902,
+            "value": "p_sgCREB1_5"
+          },
+          {
+            "count": 900,
+            "value": "p_sgCREB1_2"
+          },
+          {
+            "count": 896,
+            "value": "p_sgELK1_7"
+          },
+          {
+            "count": 864,
+            "value": "p_sgE2F4_6"
+          },
+          {
+            "count": 832,
+            "value": "p_sgE2F4_7"
+          },
+          {
+            "count": 829,
+            "value": "p_sgELF1_4"
+          },
+          {
+            "count": 827,
+            "value": "p_sgEGR1_4"
+          }
+        ],
+        "unique_count": 30
+      },
+      "perturbation": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 5381,
+            "value": "control"
+          },
+          {
+            "count": 1443,
+            "value": "p-sgELF1-2"
+          },
+          {
+            "count": 1201,
+            "value": "p-sgGABPA-1"
+          },
+          {
+            "count": 1143,
+            "value": "p-sgELF1-5"
+          },
+          {
+            "count": 1072,
+            "value": "p-sgYY1-3"
+          },
+          {
+            "count": 1058,
+            "value": "p-sgELK1-6"
+          },
+          {
+            "count": 999,
+            "value": "p-sgNR2C2-5"
+          },
+          {
+            "count": 964,
+            "value": "p-sgETS1-5"
+          },
+          {
+            "count": 922,
+            "value": "p-sgYY1-10"
+          },
+          {
+            "count": 911,
+            "value": "p-sgCREB1-4"
+          },
+          {
+            "count": 902,
+            "value": "p-sgCREB1-5"
+          },
+          {
+            "count": 900,
+            "value": "p-sgCREB1-2"
+          },
+          {
+            "count": 896,
+            "value": "p-sgELK1-7"
+          },
+          {
+            "count": 864,
+            "value": "p-sgE2F4-6"
+          },
+          {
+            "count": 832,
+            "value": "p-sgE2F4-7"
+          },
+          {
+            "count": 829,
+            "value": "p-sgELF1-4"
+          },
+          {
+            "count": 827,
+            "value": "p-sgEGR1-4"
+          },
+          {
+            "count": 820,
+            "value": "p-sgETS1-3"
+          },
+          {
+            "count": 819,
+            "value": "p-sgGABPA-9"
+          },
+          {
+            "count": 805,
+            "value": "p-sgELF1-1"
+          }
+        ],
+        "unique_count": 27
+      },
+      "time": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 28034,
+            "value": "168"
+          }
+        ],
+        "unique_count": 1
+      }
+    }
+  },
+  "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+  "schema_version": "1.0",
+  "source_record": {
+    "admission_status": "pass_after_curation",
+    "analysis_input": {
+      "mode": "curated",
+      "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+      "sha256": "e6be49ae0d7a07d47aaab77d5cdfff50ae7f550b5f43bf0418c308b45be22f80",
+      "size_bytes": 220898984,
+      "storage": "h5ad"
+    },
+    "cell_counts": {
+      "after_curation": 28034,
+      "before_curation": 33013,
+      "excluded_by_curation": 4979,
+      "profile_n_obs": 28034,
+      "profile_n_vars": 23111
+    },
+    "dataset_id": "dixit",
+    "lineage": {
+      "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+      "curation_mode": "curated",
+      "download_artifact": {
+        "name": "DixitRegev2016_K562_TFs_7_days.h5ad",
+        "sha256": "03802e358de0568cfe32de26d78bee2805687412f5fbb6b788213aca31e973a0",
+        "size_bytes": 256685252,
+        "status": "downloaded"
+      },
+      "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+      "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+      "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+      "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\dixit.profile.json"
+    },
+    "release_id": "scperturb_mvp_v0.1",
+    "warnings": [
+      "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate",
+      "no raw object or count layer found; X is treated as counts"
+    ]
+  },
+  "var": {
+    "column_names": [
+      "_index",
+      "gene_id",
+      "mt",
+      "ncells",
+      "ncounts",
+      "ribo"
+    ],
+    "column_order": [
+      "gene_id",
+      "mt",
+      "ribo",
+      "ncounts",
+      "ncells"
+    ],
+    "columns": [
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "_index",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 23111
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "gene_id",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 23111
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "mt",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "dtype": "int32",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncells",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 9177
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 9880
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ribo",
+        "shape": [
+          23111
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "_index",
+    "n_rows": 23111,
+    "summaries": {}
+  },
+  "warnings": [
+    "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate",
+    "no raw object or count layer found; X is treated as counts"
+  ]
+}

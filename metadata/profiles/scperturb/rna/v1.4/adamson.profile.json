@@ -1,0 +1,843 @@
+{
+  "counts": {
+    "counts_location_inferred": "X",
+    "layers": [],
+    "raw_present": false,
+    "x_present": true
+  },
+  "dataset_id": "adamson",
+  "file_sha256": null,
+  "file_size_bytes": 474426103,
+  "h5ad_attrs": {
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0"
+  },
+  "matrix": {
+    "density": 0.11122677344042191,
+    "dtype": "float32",
+    "encoding": "csc_matrix",
+    "integer_like_sample": true,
+    "n_obs": 65257,
+    "n_vars": 32738,
+    "nnz": 237623062,
+    "sampled_values": 200000,
+    "shape": [
+      65257,
+      32738
+    ]
+  },
+  "obs": {
+    "column_names": [
+      "UMI count",
+      "cancer",
+      "cell_barcode",
+      "cell_line",
+      "celltype",
+      "control_status",
+      "disease",
+      "guide_id",
+      "ncounts",
+      "ngenes",
+      "nperts",
+      "organism",
+      "percent_mito",
+      "percent_ribo",
+      "perturbation",
+      "perturbation_type",
+      "read count",
+      "source_cell_barcode",
+      "tissue_type"
+    ],
+    "column_order": [
+      "perturbation",
+      "read count",
+      "UMI count",
+      "tissue_type",
+      "cell_line",
+      "cancer",
+      "disease",
+      "perturbation_type",
+      "celltype",
+      "organism",
+      "ncounts",
+      "ngenes",
+      "percent_mito",
+      "percent_ribo",
+      "nperts",
+      "source_cell_barcode",
+      "guide_id",
+      "control_status"
+    ],
+    "columns": [
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "UMI count",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 218
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "cancer",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 1
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "cell_barcode",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 65257
+      },
+      {
+        "categories_sample": [
+          "K562"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "cell_line",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "lymphoblasts"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "celltype",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "negative_control",
+          "targeting"
+        ],
+        "category_count": 2,
+        "dtype": "int32",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "control_status",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "chronic myelogenous leukemia"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "disease",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "*",
+          "62(mod)_pBA581",
+          "AARS_pDS381",
+          "AMIGO3_pDS434",
+          "ARHGAP22_pDS458",
+          "ASCC3_pDS051",
+          "ASCC3_pDS052",
+          "ATF4_pBA576",
+          "ATF4_pBA577",
+          "ATF4_pBA608",
+          "ATF6_pBA586",
+          "ATP5B_pDS055",
+          "C7orf26_pDS004",
+          "CAD_pDS468",
+          "CARS_pDS460",
+          "CCND3_pDS005",
+          "CCND3_pDS006",
+          "CHERP_pDS024",
+          "COPB1_pDS065",
+          "COPZ1_pDS462"
+        ],
+        "category_count": 113,
+        "dtype": "int32",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "guide_id",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float32",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 23276
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ngenes",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 4414
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "nperts",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "categories_sample": [
+          "human"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "organism",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float32",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_mito",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 64426
+      },
+      {
+        "dtype": "float32",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "percent_ribo",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 64659
+      },
+      {
+        "categories_sample": [
+          "*",
+          "62(mod)_pBA581",
+          "AARS_pDS381",
+          "AMIGO3_pDS434",
+          "ARHGAP22_pDS458",
+          "ASCC3_pDS051",
+          "ASCC3_pDS052",
+          "ATF4_pBA576",
+          "ATF4_pBA577",
+          "ATF4_pBA608",
+          "ATF6_pBA586",
+          "ATP5B_pDS055",
+          "C7orf26_pDS004",
+          "CAD_pDS468",
+          "CARS_pDS460",
+          "CCND3_pDS005",
+          "CCND3_pDS006",
+          "CHERP_pDS024",
+          "COPB1_pDS065",
+          "COPZ1_pDS462"
+        ],
+        "category_count": 113,
+        "dtype": "int32",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "CRISPR"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation_type",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "read count",
+        "shape": [
+          65257
+        ],
+        "storage": "dataset",
+        "unique_count": 2677
+      },
+      {
+        "categories_sample": [
+          "AAACATACAACCGT-9",
+          "AAACATACAAGATG-1",
+          "AAACATACACCTAG-1",
+          "AAACATACACGGTT-2",
+          "AAACATACAGAGGC-9",
+          "AAACATACAGCAAA-9",
+          "AAACATACAGGGTG-3",
+          "AAACATACAGTCAC-3",
+          "AAACATACATAAGG-2",
+          "AAACATACATGCCA-9",
+          "AAACATACATTCCT-9",
+          "AAACATACATTCGG-7",
+          "AAACATACCATTCT-10",
+          "AAACATACCCATGA-5",
+          "AAACATACCCCTAC-6",
+          "AAACATACCCTTCG-4",
+          "AAACATACCTATTC-4",
+          "AAACATACCTTCGC-3",
+          "AAACATACGCAAGG-8",
+          "AAACATACGGTCTA-4"
+        ],
+        "category_count": 65257,
+        "dtype": "int32",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "source_cell_barcode",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "cell_line"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "tissue_type",
+        "shape": [
+          65257
+        ],
+        "storage": "group"
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "cell_barcode",
+    "n_rows": 65257,
+    "summaries": {
+      "control_status": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 57630,
+            "value": "targeting"
+          },
+          {
+            "count": 7627,
+            "value": "negative_control"
+          }
+        ],
+        "unique_count": 2
+      },
+      "guide_id": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 7627,
+            "value": "control"
+          },
+          {
+            "count": 1276,
+            "value": "IER3IP1_pDS002"
+          },
+          {
+            "count": 1247,
+            "value": "SEC61B_pDS033"
+          },
+          {
+            "count": 1185,
+            "value": "ASCC3_pDS052"
+          },
+          {
+            "count": 1042,
+            "value": "DNAJC19_pDS026"
+          },
+          {
+            "count": 929,
+            "value": "HSPA5_pDS017"
+          },
+          {
+            "count": 926,
+            "value": "HSPA9_pDS088"
+          },
+          {
+            "count": 860,
+            "value": "YIPF5_pDS186"
+          },
+          {
+            "count": 838,
+            "value": "SAMM50_pDS156"
+          },
+          {
+            "count": 830,
+            "value": "TARS_pDS405"
+          },
+          {
+            "count": 810,
+            "value": "XRN1_pDS411"
+          },
+          {
+            "count": 797,
+            "value": "GBF1_pDS043"
+          },
+          {
+            "count": 789,
+            "value": "TIMM23_pDS284"
+          },
+          {
+            "count": 774,
+            "value": "DAD1_pDS499"
+          },
+          {
+            "count": 758,
+            "value": "SEC61A1_pDS032"
+          },
+          {
+            "count": 750,
+            "value": "AMIGO3_pDS434"
+          },
+          {
+            "count": 732,
+            "value": "SRPRB_pDS404"
+          },
+          {
+            "count": 729,
+            "value": "SRP68_pDS403"
+          },
+          {
+            "count": 723,
+            "value": "UFM1_pDS040"
+          },
+          {
+            "count": 712,
+            "value": "MRPL39_pDS498"
+          }
+        ],
+        "unique_count": 113
+      },
+      "perturbation": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 7627,
+            "value": "control"
+          },
+          {
+            "count": 1276,
+            "value": "IER3IP1_pDS002"
+          },
+          {
+            "count": 1247,
+            "value": "SEC61B_pDS033"
+          },
+          {
+            "count": 1185,
+            "value": "ASCC3_pDS052"
+          },
+          {
+            "count": 1042,
+            "value": "DNAJC19_pDS026"
+          },
+          {
+            "count": 929,
+            "value": "HSPA5_pDS017"
+          },
+          {
+            "count": 926,
+            "value": "HSPA9_pDS088"
+          },
+          {
+            "count": 860,
+            "value": "YIPF5_pDS186"
+          },
+          {
+            "count": 838,
+            "value": "SAMM50_pDS156"
+          },
+          {
+            "count": 830,
+            "value": "TARS_pDS405"
+          },
+          {
+            "count": 810,
+            "value": "XRN1_pDS411"
+          },
+          {
+            "count": 797,
+            "value": "GBF1_pDS043"
+          },
+          {
+            "count": 789,
+            "value": "TIMM23_pDS284"
+          },
+          {
+            "count": 774,
+            "value": "DAD1_pDS499"
+          },
+          {
+            "count": 758,
+            "value": "SEC61A1_pDS032"
+          },
+          {
+            "count": 750,
+            "value": "AMIGO3_pDS434"
+          },
+          {
+            "count": 732,
+            "value": "SRPRB_pDS404"
+          },
+          {
+            "count": 729,
+            "value": "SRP68_pDS403"
+          },
+          {
+            "count": 723,
+            "value": "UFM1_pDS040"
+          },
+          {
+            "count": 712,
+            "value": "MRPL39_pDS498"
+          }
+        ],
+        "unique_count": 113
+      }
+    }
+  },
+  "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+  "schema_version": "1.0",
+  "source_record": {
+    "admission_status": "pass_after_curation",
+    "analysis_input": {
+      "mode": "curated",
+      "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+      "sha256": "70f16f483e0c801e71dae00582b51bc189113bc6abba73bfaec4592bab2be89e",
+      "size_bytes": 474426103,
+      "storage": "h5ad"
+    },
+    "cell_counts": {
+      "after_curation": 65257,
+      "before_curation": 65337,
+      "excluded_by_curation": 80,
+      "profile_n_obs": 65257,
+      "profile_n_vars": 32738
+    },
+    "dataset_id": "adamson",
+    "lineage": {
+      "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+      "curation_mode": "curated",
+      "download_artifact": {
+        "name": "AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+        "sha256": "e70fcd49808cab8d724de8d5a332940911206e1c8ef44cc7b568d048ed795c85",
+        "size_bytes": 471286951,
+        "status": "downloaded"
+      },
+      "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+      "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+      "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+      "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\adamson.profile.json"
+    },
+    "release_id": "scperturb_mvp_v0.1",
+    "warnings": [
+      "missing recommended obs columns: batch, batch_id, cell_type, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+      "no raw object or count layer found; X is treated as counts"
+    ]
+  },
+  "var": {
+    "column_names": [
+      "ensembl_id",
+      "gene_symbol",
+      "ncells",
+      "ncounts"
+    ],
+    "column_order": [
+      "ensembl_id",
+      "ncounts",
+      "ncells"
+    ],
+    "columns": [
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "ensembl_id",
+        "shape": [
+          32738
+        ],
+        "storage": "dataset",
+        "unique_count": 32738
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "gene_symbol",
+        "shape": [
+          32738
+        ],
+        "storage": "dataset",
+        "unique_count": 32738
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncells",
+        "shape": [
+          32738
+        ],
+        "storage": "dataset",
+        "unique_count": 10664
+      },
+      {
+        "dtype": "float32",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          32738
+        ],
+        "storage": "dataset",
+        "unique_count": 11073
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "gene_symbol",
+    "n_rows": 32738,
+    "summaries": {
+      "ensembl_id": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 1,
+            "value": "ENSG00000243485"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000237613"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000186092"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000238009"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000239945"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000237683"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000239906"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000241599"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000228463"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000237094"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000235249"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000236601"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000236743"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000231709"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000235146"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000239664"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000230021"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000223659"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000185097"
+          },
+          {
+            "count": 1,
+            "value": "ENSG00000235373"
+          }
+        ],
+        "unique_count": 32738
+      },
+      "gene_symbol": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 1,
+            "value": "MIR1302-10"
+          },
+          {
+            "count": 1,
+            "value": "FAM138A"
+          },
+          {
+            "count": 1,
+            "value": "OR4F5"
+          },
+          {
+            "count": 1,
+            "value": "RP11-34P13.7"
+          },
+          {
+            "count": 1,
+            "value": "RP11-34P13.8"
+          },
+          {
+            "count": 1,
+            "value": "AL627309.1"
+          },
+          {
+            "count": 1,
+            "value": "RP11-34P13.14"
+          },
+          {
+            "count": 1,
+            "value": "RP11-34P13.9"
+          },
+          {
+            "count": 1,
+            "value": "AP006222.2"
+          },
+          {
+            "count": 1,
+            "value": "RP4-669L17.10"
+          },
+          {
+            "count": 1,
+            "value": "OR4F29"
+          },
+          {
+            "count": 1,
+            "value": "RP4-669L17.2"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.15"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.1"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.2"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.3"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.4"
+          },
+          {
+            "count": 1,
+            "value": "RP5-857K21.5"
+          },
+          {
+            "count": 1,
+            "value": "OR4F16"
+          },
+          {
+            "count": 1,
+            "value": "RP11-206L10.3"
+          }
+        ],
+        "unique_count": 32738
+      }
+    }
+  },
+  "warnings": [
+    "missing recommended obs columns: batch, batch_id, cell_type, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+    "no raw object or count layer found; X is treated as counts"
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "dataset_count": 5,
+  "datasets": [
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": {
+        "mode": "curated",
+        "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+        "sha256": "70f16f483e0c801e71dae00582b51bc189113bc6abba73bfaec4592bab2be89e",
+        "size_bytes": 474426103,
+        "storage": "h5ad"
+      },
+      "cell_counts": {
+        "after_curation": 65257,
+        "before_curation": 65337,
+        "excluded_by_curation": 80,
+        "profile_n_obs": 65257,
+        "profile_n_vars": 32738
+      },
+      "dataset_id": "adamson",
+      "lineage": {
+        "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+        "curation_mode": "curated",
+        "download_artifact": {
+          "name": "AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+          "sha256": "e70fcd49808cab8d724de8d5a332940911206e1c8ef44cc7b568d048ed795c85",
+          "size_bytes": 471286951,
+          "status": "downloaded"
+        },
+        "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+        "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+        "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+        "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\adamson.profile.json"
+      },
+      "release_id": "scperturb_mvp_v0.1",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": {
+        "mode": "curated",
+        "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+        "sha256": "e6be49ae0d7a07d47aaab77d5cdfff50ae7f550b5f43bf0418c308b45be22f80",
+        "size_bytes": 220898984,
+        "storage": "h5ad"
+      },
+      "cell_counts": {
+        "after_curation": 28034,
+        "before_curation": 33013,
+        "excluded_by_curation": 4979,
+        "profile_n_obs": 28034,
+        "profile_n_vars": 23111
+      },
+      "dataset_id": "dixit",
+      "lineage": {
+        "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+        "curation_mode": "curated",
+        "download_artifact": {
+          "name": "DixitRegev2016_K562_TFs_7_days.h5ad",
+          "sha256": "03802e358de0568cfe32de26d78bee2805687412f5fbb6b788213aca31e973a0",
+          "size_bytes": 256685252,
+          "status": "downloaded"
+        },
+        "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+        "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+        "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+        "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\dixit.profile.json"
+      },
+      "release_id": "scperturb_mvp_v0.1",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_documented_subset",
+      "analysis_input": {
+        "mode": "passthrough",
+        "path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+        "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+        "size_bytes": 698680199,
+        "storage": "h5ad"
+      },
+      "cell_counts": {
+        "after_curation": null,
+        "before_curation": null,
+        "excluded_by_curation": null,
+        "profile_n_obs": 111445,
+        "profile_n_vars": 33694
+      },
+      "dataset_id": "norman",
+      "lineage": {
+        "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+        "curation_mode": "passthrough",
+        "download_artifact": {
+          "name": "NormanWeissman2019_filtered.h5ad",
+          "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc",
+          "size_bytes": 698680199,
+          "status": "downloaded"
+        },
+        "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+        "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+        "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+        "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\norman.profile.json"
+      },
+      "release_id": "scperturb_mvp_v0.1",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "missing recommended gene identifier columns: ensembl_id, gene_id, gene_name, gene_symbol",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_primary_matrix_verified",
+      "analysis_input": {
+        "mode": "passthrough",
+        "path": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\ReplogleWeissman2022_K562_essential.h5ad",
+        "sha256": "412fd0df8c4ccea9f4db91cd88033c49200838b29d40945e48574be588b48789",
+        "size_bytes": 1546729675,
+        "storage": "h5ad"
+      },
+      "cell_counts": {
+        "after_curation": null,
+        "before_curation": null,
+        "excluded_by_curation": null,
+        "profile_n_obs": 310385,
+        "profile_n_vars": 8563
+      },
+      "dataset_id": "replogle",
+      "lineage": {
+        "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+        "curation_mode": "passthrough",
+        "download_artifact": {
+          "name": "ReplogleWeissman2022_K562_essential.h5ad",
+          "sha256": "412fd0df8c4ccea9f4db91cd88033c49200838b29d40945e48574be588b48789",
+          "size_bytes": 1546729675,
+          "status": "downloaded"
+        },
+        "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+        "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\ReplogleWeissman2022_K562_essential.h5ad",
+        "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+        "primary_matrix_verification": {
+          "harmonized_matrix_sha256": "1cb2ec238cec710df8ccfe612c3d4b661408b3b72e2e61ea931fb6f126ed7400",
+          "matrix_values_match": true,
+          "path": "metadata\\audits\\replogle_processed_verification.json",
+          "primary_matrix_sha256": "1cb2ec238cec710df8ccfe612c3d4b661408b3b72e2e61ea931fb6f126ed7400",
+          "status": "pass"
+        },
+        "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\replogle.profile.json"
+      },
+      "release_id": "scperturb_mvp_v0.1",
+      "warnings": [
+        "missing recommended obs columns: batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": {
+        "mode": "curated",
+        "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+        "sha256": "bd4d4879a33265d56067e35a26bc150aae40bb2bd69d738430e2d416d1fd4c3e",
+        "size_bytes": 2425098379,
+        "storage": "h5ad"
+      },
+      "cell_counts": {
+        "after_curation": 762795,
+        "before_curation": 799317,
+        "excluded_by_curation": 36522,
+        "profile_n_obs": 762795,
+        "profile_n_vars": 110983
+      },
+      "dataset_id": "sciplex3",
+      "lineage": {
+        "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+        "curation_mode": "curated",
+        "download_artifact": {
+          "name": "SrivatsanTrapnell2020_sciplex3.h5ad",
+          "sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a",
+          "size_bytes": 2526631614,
+          "status": "downloaded"
+        },
+        "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+        "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+        "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+        "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\sciplex3.profile.json"
+      },
+      "release_id": "scperturb_mvp_v0.1",
+      "warnings": [
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, guide_id, n_counts, n_genes, perturbation_target",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    }
+  ],
+  "release_id": "scperturb_mvp_v0.1",
+  "release_type": "analysis_input_manifest",
+  "schema_version": "1.0",
+  "source": {
+    "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+    "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+    "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+    "profile_index": "metadata\\profiles\\scperturb\\rna\\v1.4\\profile-index.json",
+    "replogle_verification": "metadata\\audits\\replogle_processed_verification.json"
+  }
+}

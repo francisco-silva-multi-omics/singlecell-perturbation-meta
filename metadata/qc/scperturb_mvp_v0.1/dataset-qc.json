@@ -1,0 +1,124 @@
+{
+  "datasets": [
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+      "batch_column": null,
+      "control_cells": 7627,
+      "control_column": "control_status",
+      "counts_location": "X",
+      "dataset_id": "adamson",
+      "failures": [],
+      "matrix_encoding": "csc_matrix",
+      "matrix_integer_like_sample": true,
+      "missing_perturbation_cells": 0,
+      "n_obs": 65257,
+      "n_vars": 32738,
+      "perturbation_column": "perturbation",
+      "perturbation_count": 113,
+      "status": "warn",
+      "warnings": [
+        "no raw object or count layer; X is treated as counts",
+        "no explicit batch/replicate column found",
+        "missing recommended obs columns: batch, batch_id, cell_type, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\DixitRegev2016_K562_TFs_7_days.h5ad",
+      "batch_column": null,
+      "control_cells": 5381,
+      "control_column": null,
+      "counts_location": "X",
+      "dataset_id": "dixit",
+      "failures": [],
+      "matrix_encoding": "csc_matrix",
+      "matrix_integer_like_sample": true,
+      "missing_perturbation_cells": 0,
+      "n_obs": 28034,
+      "n_vars": 23111,
+      "perturbation_column": "perturbation",
+      "perturbation_count": 27,
+      "status": "warn",
+      "warnings": [
+        "no raw object or count layer; X is treated as counts",
+        "no explicit batch/replicate column found",
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_documented_subset",
+      "analysis_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\NormanWeissman2019_filtered.h5ad",
+      "batch_column": null,
+      "control_cells": 11855,
+      "control_column": null,
+      "counts_location": "X",
+      "dataset_id": "norman",
+      "failures": [],
+      "matrix_encoding": "csc_matrix",
+      "matrix_integer_like_sample": true,
+      "missing_perturbation_cells": 0,
+      "n_obs": 111445,
+      "n_vars": 33694,
+      "perturbation_column": "perturbation",
+      "perturbation_count": 237,
+      "status": "warn",
+      "warnings": [
+        "no raw object or count layer; X is treated as counts",
+        "no explicit batch/replicate column found",
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "missing recommended gene identifier columns: ensembl_id, gene_id, gene_name, gene_symbol",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_primary_matrix_verified",
+      "analysis_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\ReplogleWeissman2022_K562_essential.h5ad",
+      "batch_column": "batch",
+      "control_cells": 10691,
+      "control_column": null,
+      "counts_location": "X",
+      "dataset_id": "replogle",
+      "failures": [],
+      "matrix_encoding": "dense",
+      "matrix_integer_like_sample": true,
+      "missing_perturbation_cells": 0,
+      "n_obs": 310385,
+      "n_vars": 8563,
+      "perturbation_column": "perturbation",
+      "perturbation_count": 2058,
+      "status": "warn",
+      "warnings": [
+        "no raw object or count layer; X is treated as counts",
+        "missing recommended obs columns: batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, n_counts, n_genes, perturbation_target, replicate, time",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    },
+    {
+      "admission_status": "pass_after_curation",
+      "analysis_input": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+      "batch_column": "replicate",
+      "control_cells": 17578,
+      "control_column": null,
+      "counts_location": "X",
+      "dataset_id": "sciplex3",
+      "failures": [],
+      "matrix_encoding": "csr_matrix",
+      "matrix_integer_like_sample": true,
+      "missing_perturbation_cells": 0,
+      "n_obs": 762795,
+      "n_vars": 110983,
+      "perturbation_column": "perturbation",
+      "perturbation_count": 189,
+      "status": "warn",
+      "warnings": [
+        "no raw object or count layer; X is treated as counts",
+        "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, guide_id, n_counts, n_genes, perturbation_target",
+        "no raw object or count layer found; X is treated as counts"
+      ]
+    }
+  ],
+  "schema_version": "1.0"
+}

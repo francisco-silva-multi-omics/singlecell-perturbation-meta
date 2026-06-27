@@ -69,6 +69,7 @@ class DownloadTests(unittest.TestCase):
 
             request = opener.call_args.args[0]
             self.assertEqual(request.headers["Range"], "bytes=4-")
+            self.assertNotIn("Accept", request.headers)
             self.assertEqual((output / artifact.name).read_bytes(), content)
             self.assertEqual(result.status, "resumed")
 
@@ -90,4 +91,3 @@ class DownloadTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

@@ -1,0 +1,243 @@
+{
+  "datasets": [
+    {
+      "cells": 65257,
+      "contrasts": 96,
+      "controls": 1,
+      "dataset_id": "adamson",
+      "genes": 32738
+    },
+    {
+      "cells": 28034,
+      "contrasts": 26,
+      "controls": 4,
+      "dataset_id": "dixit",
+      "genes": 23111
+    },
+    {
+      "cells": 111445,
+      "contrasts": 286,
+      "controls": 4,
+      "dataset_id": "norman",
+      "genes": 33694
+    },
+    {
+      "cells": 310385,
+      "contrasts": 1922,
+      "controls": 97,
+      "dataset_id": "replogle",
+      "genes": 8563
+    },
+    {
+      "cells": 762795,
+      "contrasts": 188,
+      "controls": 1,
+      "dataset_id": "sciplex3",
+      "genes": 110983
+    }
+  ],
+  "effect_summary": [
+    {
+      "contrasts": 96,
+      "dataset_id": "adamson",
+      "features": 32738,
+      "median_max_abs": 1.8868401050567627,
+      "median_p95_abs": 0.21602344512939453,
+      "p90_max_abs": 2.7148399353027344
+    },
+    {
+      "contrasts": 26,
+      "dataset_id": "dixit",
+      "features": 23111,
+      "median_max_abs": 1.1033239364624023,
+      "median_p95_abs": 0.1746201515197754,
+      "p90_max_abs": 1.92350435256958
+    },
+    {
+      "contrasts": 286,
+      "dataset_id": "norman",
+      "features": 33694,
+      "median_max_abs": 3.0403833389282227,
+      "median_p95_abs": 0.3419511616230011,
+      "p90_max_abs": 4.341893196105957
+    },
+    {
+      "contrasts": 1922,
+      "dataset_id": "replogle",
+      "features": 8563,
+      "median_max_abs": 1.9369144439697266,
+      "median_p95_abs": 0.3778701424598694,
+      "p90_max_abs": 2.5754878520965576
+    },
+    {
+      "contrasts": 188,
+      "dataset_id": "sciplex3",
+      "features": 110983,
+      "median_max_abs": 1.6045153141021729,
+      "median_p95_abs": 0.19858314096927643,
+      "p90_max_abs": 3.356064558029175
+    }
+  ],
+  "effects_manifest": "data\\results\\scperturb\\rna\\v0.1\\effects\\intervention\\effects-manifest.json",
+  "figures": {
+    "effect_magnitude": "figures\\scperturb_mvp_v0.1\\effect_magnitude.svg",
+    "overview": "figures\\scperturb_mvp_v0.1\\mvp_overview.svg",
+    "top_gene_recurrence": "figures\\scperturb_mvp_v0.1\\top_gene_recurrence.svg"
+  },
+  "qc_summary": "metadata\\qc\\scperturb_mvp_v0.1\\qc-summary.json",
+  "release_manifest": "metadata\\releases\\scperturb_mvp_v0.1.json",
+  "report": "figures\\scperturb_mvp_v0.1\\visual_summary.md",
+  "schema_version": "1.0",
+  "top_recurrent_genes": [
+    {
+      "dataset_count": 5,
+      "gene_id": "TMEM158",
+      "hit_count": 826,
+      "max_abs_effect": 3.239896598449653
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "AREG",
+      "hit_count": 496,
+      "max_abs_effect": 3.467552579067113
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "EGR1",
+      "hit_count": 449,
+      "max_abs_effect": 2.3825744094540013
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TUBA1A",
+      "hit_count": 399,
+      "max_abs_effect": 3.3652491647101352
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TAC3",
+      "hit_count": 343,
+      "max_abs_effect": 2.0944715550351396
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TSPAN32",
+      "hit_count": 334,
+      "max_abs_effect": 2.044132379368498
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "HSPA1A",
+      "hit_count": 206,
+      "max_abs_effect": 2.5914710060331894
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "ARHGEF6",
+      "hit_count": 179,
+      "max_abs_effect": 2.665354782953097
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "CAB39L",
+      "hit_count": 156,
+      "max_abs_effect": 1.6043369763878488
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "HIST1H3H",
+      "hit_count": 140,
+      "max_abs_effect": 1.7281633469669164
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "PRSS57",
+      "hit_count": 138,
+      "max_abs_effect": 1.7029904057405476
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "RNF208",
+      "hit_count": 95,
+      "max_abs_effect": 2.1168133763026966
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "VGF",
+      "hit_count": 769,
+      "max_abs_effect": 2.509334488756116
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "CRYM",
+      "hit_count": 625,
+      "max_abs_effect": 2.859039182145843
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "ALAS2",
+      "hit_count": 600,
+      "max_abs_effect": 2.7790499663691817
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "FCGR2A",
+      "hit_count": 599,
+      "max_abs_effect": 2.3513048323361763
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "LST1",
+      "hit_count": 591,
+      "max_abs_effect": 4.078400074221696
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "BTG2",
+      "hit_count": 531,
+      "max_abs_effect": 3.114698491931255
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "PHGDH",
+      "hit_count": 504,
+      "max_abs_effect": 2.5612330803899837
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "IER3",
+      "hit_count": 493,
+      "max_abs_effect": 2.5526464501324004
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "LBH",
+      "hit_count": 456,
+      "max_abs_effect": 2.1209346418622825
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "TNFSF10",
+      "hit_count": 443,
+      "max_abs_effect": 2.95257687885933
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "LCP2",
+      "hit_count": 439,
+      "max_abs_effect": 2.39523008700039
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "HBZ",
+      "hit_count": 404,
+      "max_abs_effect": 3.020714092227476
+    },
+    {
+      "dataset_count": 4,
+      "gene_id": "MT1G",
+      "hit_count": 373,
+      "max_abs_effect": 2.258768415514414
+    }
+  ]
+}

@@ -7,11 +7,24 @@ name = "singlecell-perturbation-meta"
 version = "0.1.0"
 description = "Reproducible acquisition tools for single-cell perturbation datasets"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+  "h5py>=3.11",
+  "numpy>=2.0",
+  "scipy>=1.13",
+]
 
 [project.scripts]
 scmeta-fetch = "scmeta_fetch.cli:main"
+scmeta-curate = "scmeta_curate.cli:main"
+scmeta-profile = "scmeta_profile.cli:main"
+scmeta-release = "scmeta_release.cli:main"
+scmeta-qc = "scmeta_qc.cli:main"
+scmeta-harmonize = "scmeta_harmonize.cli:main"
+scmeta-aggregate = "scmeta_aggregate.cli:main"
+scmeta-effects = "scmeta_effects.cli:main"
+scmeta-plots = "scmeta_plots.cli:main"
+scmeta-contrast = "scmeta_contrast.cli:main"
+scmeta-meta = "scmeta_meta.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-

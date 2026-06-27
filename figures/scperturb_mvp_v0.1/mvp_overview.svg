@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="590" viewBox="0 0 1160 590">
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#222}.title{font-size:22px;font-weight:700}.subtitle{font-size:12px;fill:#555}.axis{font-size:11px;fill:#555}.label{font-size:12px}.small{font-size:10px;fill:#555}.panel{fill:#fff;stroke:#ddd;stroke-width:1}</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40.0" y="38.0" class="title" text-anchor="start">scPerturb MVP Pipeline Summary</text>
+<text x="40.0" y="58.0" class="subtitle" text-anchor="start">Cells, contrasts, and perturbation QC status after curation/harmonization/effect calculation.</text>
+<rect x="40.0" y="80.0" width="520.0" height="230.0" fill="#fff" opacity="1.000"/>
+<text x="54.0" y="104.0" class="label" text-anchor="start">Cells per dataset</text>
+<text x="54.0" y="142.2" class="axis" text-anchor="start">adamson</text>
+<rect x="160.0" y="128.0" width="30.8" height="20.0" fill="#4C78A8" opacity="1.000"/>
+<text x="196.8" y="142.2" class="small" text-anchor="start">65,257</text>
+<text x="54.0" y="170.2" class="axis" text-anchor="start">dixit</text>
+<rect x="160.0" y="156.0" width="13.2" height="20.0" fill="#F58518" opacity="1.000"/>
+<text x="179.2" y="170.2" class="small" text-anchor="start">28,034</text>
+<text x="54.0" y="198.2" class="axis" text-anchor="start">norman</text>
+<rect x="160.0" y="184.0" width="52.6" height="20.0" fill="#54A24B" opacity="1.000"/>
+<text x="218.6" y="198.2" class="small" text-anchor="start">111,445</text>
+<text x="54.0" y="226.2" class="axis" text-anchor="start">replogle</text>
+<rect x="160.0" y="212.0" width="146.5" height="20.0" fill="#B279A2" opacity="1.000"/>
+<text x="312.5" y="226.2" class="small" text-anchor="start">310,385</text>
+<text x="54.0" y="254.2" class="axis" text-anchor="start">sciplex3</text>
+<rect x="160.0" y="240.0" width="360.0" height="20.0" fill="#E45756" opacity="1.000"/>
+<text x="526.0" y="254.2" class="small" text-anchor="start">762,795</text>
+<text x="546.0" y="300.0" class="small" text-anchor="end">cell count</text>
+<rect x="600.0" y="80.0" width="520.0" height="230.0" fill="#fff" opacity="1.000"/>
+<text x="614.0" y="104.0" class="label" text-anchor="start">Effect contrasts per dataset</text>
+<text x="614.0" y="142.2" class="axis" text-anchor="start">adamson</text>
+<rect x="720.0" y="128.0" width="18.0" height="20.0" fill="#4C78A8" opacity="1.000"/>
+<text x="744.0" y="142.2" class="small" text-anchor="start">96</text>
+<text x="614.0" y="170.2" class="axis" text-anchor="start">dixit</text>
+<rect x="720.0" y="156.0" width="4.9" height="20.0" fill="#F58518" opacity="1.000"/>
+<text x="730.9" y="170.2" class="small" text-anchor="start">26</text>
+<text x="614.0" y="198.2" class="axis" text-anchor="start">norman</text>
+<rect x="720.0" y="184.0" width="53.6" height="20.0" fill="#54A24B" opacity="1.000"/>
+<text x="779.6" y="198.2" class="small" text-anchor="start">286</text>
+<text x="614.0" y="226.2" class="axis" text-anchor="start">replogle</text>
+<rect x="720.0" y="212.0" width="360.0" height="20.0" fill="#B279A2" opacity="1.000"/>
+<text x="1086.0" y="226.2" class="small" text-anchor="start">1,922</text>
+<text x="614.0" y="254.2" class="axis" text-anchor="start">sciplex3</text>
+<rect x="720.0" y="240.0" width="35.2" height="20.0" fill="#E45756" opacity="1.000"/>
+<text x="761.2" y="254.2" class="small" text-anchor="start">188</text>
+<text x="1106.0" y="300.0" class="small" text-anchor="end">treated-vs-control contrasts</text>
+<rect x="40.0" y="340.0" width="520.0" height="210.0" fill="#fff" opacity="1.000"/>
+<text x="54.0" y="364.0" class="label" text-anchor="start">Perturbation QC labels</text>
+<text x="54.0" y="402.2" class="axis" text-anchor="start">pass</text>
+<rect x="160.0" y="388.0" width="360.0" height="20.0" fill="#54A24B" opacity="1.000"/>
+<text x="526.0" y="402.2" class="small" text-anchor="start">2,020</text>
+<text x="54.0" y="430.2" class="axis" text-anchor="start">warn</text>
+<rect x="160.0" y="416.0" width="63.8" height="20.0" fill="#F2BE42" opacity="1.000"/>
+<text x="229.8" y="430.2" class="small" text-anchor="start">358</text>
+<text x="54.0" y="458.2" class="axis" text-anchor="start">fail</text>
+<rect x="160.0" y="444.0" width="43.0" height="20.0" fill="#E45756" opacity="1.000"/>
+<text x="209.0" y="458.2" class="small" text-anchor="start">241</text>
+<text x="54.0" y="486.2" class="axis" text-anchor="start">control</text>
+<rect x="160.0" y="472.0" width="0.9" height="20.0" fill="#4C78A8" opacity="1.000"/>
+<text x="166.9" y="486.2" class="small" text-anchor="start">5</text>
+<text x="546.0" y="540.0" class="small" text-anchor="end">labels</text>
+<rect x="600.0" y="340.0" width="520.0" height="210.0" fill="#fff" opacity="1.000"/>
+<text x="614.0" y="364.0" class="label" text-anchor="start">MVP artifact counts</text>
+<text x="630.0" y="398.0" class="axis" text-anchor="start">datasets</text>
+<text x="1020.0" y="398.0" class="label" text-anchor="end">5</text>
+<text x="630.0" y="422.0" class="axis" text-anchor="start">cells</text>
+<text x="1020.0" y="422.0" class="label" text-anchor="end">1,277,916</text>
+<text x="630.0" y="446.0" class="axis" text-anchor="start">features max</text>
+<text x="1020.0" y="446.0" class="label" text-anchor="end">110,983</text>
+<text x="630.0" y="470.0" class="axis" text-anchor="start">effect contrasts</text>
+<text x="1020.0" y="470.0" class="label" text-anchor="end">2,518</text>
+<text x="630.0" y="494.0" class="axis" text-anchor="start">QC pass labels</text>
+<text x="1020.0" y="494.0" class="label" text-anchor="end">2,020</text>
+<text x="630.0" y="518.0" class="axis" text-anchor="start">QC fail labels</text>
+<text x="1020.0" y="518.0" class="label" text-anchor="end">241</text>
+</svg>

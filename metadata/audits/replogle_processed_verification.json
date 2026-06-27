@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "primary_path": "data\\raw\\figshare\\replogle\\K562_essential_raw_singlecell_01.h5ad",
+  "harmonized_path": "data\\landing\\scperturb\\rna\\v1.4\\ReplogleWeissman2022_K562_essential.h5ad",
+  "shape": [
+    310385,
+    8563
+  ],
+  "shape_match": true,
+  "cell_ids_match": true,
+  "gene_ids_match": true,
+  "matrix_values_match": true,
+  "primary_file_size_bytes": 10661879995,
+  "primary_file_sha256": "3e5a63a9e892b21029bb55fca4e12517a49aad7af6c14133ca63d12cf68c6cee",
+  "primary_matrix_sha256": "1cb2ec238cec710df8ccfe612c3d4b661408b3b72e2e61ea931fb6f126ed7400",
+  "harmonized_matrix_sha256": "1cb2ec238cec710df8ccfe612c3d4b661408b3b72e2e61ea931fb6f126ed7400"
+}

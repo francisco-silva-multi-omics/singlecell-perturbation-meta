@@ -1,0 +1,975 @@
+{
+  "counts": {
+    "counts_location_inferred": "X",
+    "layers": [],
+    "raw_present": false,
+    "x_present": true
+  },
+  "dataset_id": "sciplex3",
+  "file_sha256": null,
+  "file_size_bytes": 2425098379,
+  "h5ad_attrs": {
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0"
+  },
+  "matrix": {
+    "density": 0.011419776783765538,
+    "dtype": "int64",
+    "encoding": "csr_matrix",
+    "integer_like_sample": true,
+    "n_obs": 762795,
+    "n_vars": 110983,
+    "nnz": 966767212,
+    "sampled_values": 200000,
+    "shape": [
+      762795,
+      110983
+    ]
+  },
+  "obs": {
+    "column_names": [
+      "_index",
+      "cancer",
+      "cell_line",
+      "celltype",
+      "disease",
+      "dose_unit",
+      "dose_value",
+      "ncounts",
+      "nperts",
+      "organism",
+      "pathway",
+      "pathway_level_1",
+      "pathway_level_2",
+      "perturbation",
+      "perturbation_type",
+      "plate",
+      "replicate",
+      "target",
+      "time",
+      "tissue_type",
+      "well"
+    ],
+    "column_order": [
+      "ncounts",
+      "well",
+      "plate",
+      "cell_line",
+      "replicate",
+      "time",
+      "dose_value",
+      "pathway_level_1",
+      "pathway_level_2",
+      "perturbation",
+      "target",
+      "pathway",
+      "dose_unit",
+      "celltype",
+      "disease",
+      "cancer",
+      "tissue_type",
+      "organism",
+      "perturbation_type",
+      "nperts"
+    ],
+    "columns": [
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "_index",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 762795
+      },
+      {
+        "dtype": "bool",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "cancer",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 1
+      },
+      {
+        "categories_sample": [
+          "A549",
+          "K562",
+          "MCF7"
+        ],
+        "category_count": 3,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "cell_line",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "None",
+          "alveolar basal epithelial cells",
+          "lymphoblasts",
+          "mammary epithelial cells"
+        ],
+        "category_count": 4,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "celltype",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "None",
+          "breast adenocarcinoma",
+          "chronic myelogenous leukemia",
+          "lung adenocarcinoma"
+        ],
+        "category_count": 4,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "disease",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "nM"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "dose_unit",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "dose_value",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 5
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "ncounts",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 19545
+      },
+      {
+        "dtype": "int64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "nperts",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "categories_sample": [
+          "human"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "organism",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "Angiogenesis",
+          "Apoptosis",
+          "Cell Cycle",
+          "Cytoskeletal Signaling",
+          "DNA Damage",
+          "Endocrinology & Hormones",
+          "Epigenetics",
+          "GPCR & G Protein",
+          "JAK/STAT",
+          "MAPK",
+          "Metabolism",
+          "Microbiology",
+          "Neuronal Signaling",
+          "Others",
+          "PI3K/Akt/mTOR",
+          "Proteases",
+          "Protein Tyrosine Kinase",
+          "Stem Cells &  Wnt",
+          "TGF-beta/Smad",
+          "Ubiquitin"
+        ],
+        "category_count": 21,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "pathway",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "Antioxidant",
+          "Apoptotic regulation",
+          "Cell cycle regulation",
+          "DNA damage & DNA repair",
+          "Epigenetic regulation",
+          "Focal adhesion signaling",
+          "HIF signaling",
+          "JAK/STAT signaling",
+          "Metabolic regulation",
+          "Neuronal signaling",
+          "Nuclear receptor signaling",
+          "Other",
+          "PKC signaling",
+          "Protein folding & Protein degradation",
+          "TGF/BMP signaling",
+          "Tyrosine kinase signaling",
+          "Vehicle"
+        ],
+        "category_count": 17,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "pathway_level_1",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "ADP-rybosilation",
+          "AMPK activity",
+          "Abl/Src activity",
+          "Activin receptor type activity",
+          "Aldehyde dehydrogenase activity",
+          "Alkylating agent",
+          "Anti-inflammatory",
+          "Antioxidant",
+          "Aromatase activity",
+          "Aurora kinase activity",
+          "Bacterial topoisomerase activity",
+          "Bromodomain",
+          "CDK activity",
+          "Catecholamine degradation",
+          "Cell cycle regulation",
+          "Chemokine Receptor activity",
+          "Crosslinking agent",
+          "Cyclooxigenase activity",
+          "DNA methylation",
+          "Dimethylallyl trans transferase activity"
+        ],
+        "category_count": 55,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "pathway_level_2",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "2-Methoxyestradiol (2-MeOE2)",
+          "(+)-JQ1",
+          "A-366",
+          "ABT-737",
+          "AC480 (BMS-599626)",
+          "AG-490 (Tyrphostin B42)",
+          "AG-14361",
+          "AICAR (Acadesine)",
+          "AMG-900",
+          "AR-42",
+          "AT9283",
+          "AZ 960",
+          "AZD1480",
+          "Abexinostat (PCI-24781)",
+          "Alendronate sodium trihydrate",
+          "Alisertib (MLN8237)",
+          "Altretamine",
+          "Alvespimycin (17-DMAG) HCl",
+          "Aminoglutethimide ",
+          "Amisulpride"
+        ],
+        "category_count": 189,
+        "dtype": "int16",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "drug"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "perturbation_type",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "plate1",
+          "plate2",
+          "plate3",
+          "plate4",
+          "plate5",
+          "plate6",
+          "plate7",
+          "plate8",
+          "plate9",
+          "plate10",
+          "plate11",
+          "plate12",
+          "plate13",
+          "plate14",
+          "plate15",
+          "plate16",
+          "plate17",
+          "plate18",
+          "plate19",
+          "plate20"
+        ],
+        "category_count": 52,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "plate",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "rep1",
+          "rep2"
+        ],
+        "category_count": 2,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "replicate",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "ALK,c-Met",
+          "AMPK",
+          "Androgen Receptor",
+          "Aromatase",
+          "Aurora Kinase",
+          "Aurora Kinase,Bcr-Abl,FLT3",
+          "Aurora Kinase,Bcr-Abl,JAK",
+          "Aurora Kinase,Bcr-Abl,c-RET,FGFR",
+          "Aurora Kinase,CDK",
+          "Aurora Kinase,FLT3,VEGFR",
+          "Aurora Kinase,VEGFR",
+          "Autophagy,ROCK",
+          "Autophagy,Sirtuin",
+          "Bcl-2",
+          "Bcr-Abl",
+          "Bcr-Abl,c-Kit,Src",
+          "Beta Amyloid,Gamma-secretase",
+          "CCR",
+          "CDK",
+          "COX"
+        ],
+        "category_count": 87,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "target",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "float64",
+        "encoding_type": "array",
+        "missing_count": 0,
+        "name": "time",
+        "shape": [
+          762795
+        ],
+        "storage": "dataset",
+        "unique_count": 2
+      },
+      {
+        "categories_sample": [
+          "cell_line"
+        ],
+        "category_count": 1,
+        "dtype": "int8",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "tissue_type",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      },
+      {
+        "categories_sample": [
+          "plate2_A1",
+          "plate2_A2",
+          "plate2_A3",
+          "plate2_A4",
+          "plate2_A5",
+          "plate2_A6",
+          "plate2_A7",
+          "plate2_A8",
+          "plate2_A9",
+          "plate2_A10",
+          "plate2_A11",
+          "plate2_A12",
+          "plate2_B1",
+          "plate2_B2",
+          "plate2_B3",
+          "plate2_B4",
+          "plate2_B5",
+          "plate2_B6",
+          "plate2_B7",
+          "plate2_B8"
+        ],
+        "category_count": 864,
+        "dtype": "int16",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "well",
+        "shape": [
+          762795
+        ],
+        "storage": "group"
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "_index",
+    "n_rows": 762795,
+    "summaries": {
+      "perturbation": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 17578,
+            "value": "control"
+          },
+          {
+            "count": 6257,
+            "value": "Ellagic acid"
+          },
+          {
+            "count": 6203,
+            "value": "Divalproex Sodium"
+          },
+          {
+            "count": 6143,
+            "value": "Ruxolitinib (INCB018424)"
+          },
+          {
+            "count": 6126,
+            "value": "MC1568"
+          },
+          {
+            "count": 6088,
+            "value": "UNC1999"
+          },
+          {
+            "count": 6036,
+            "value": "Tazemetostat (EPZ-6438)"
+          },
+          {
+            "count": 6002,
+            "value": "Fasudil (HA-1077) HCl"
+          },
+          {
+            "count": 5948,
+            "value": "PFI-1 (PF-6405761)"
+          },
+          {
+            "count": 5942,
+            "value": "SRT2104 (GSK2245840)"
+          },
+          {
+            "count": 5942,
+            "value": "Resveratrol"
+          },
+          {
+            "count": 5927,
+            "value": "BMS-911543"
+          },
+          {
+            "count": 5920,
+            "value": "Iniparib (BSI-201)"
+          },
+          {
+            "count": 5920,
+            "value": "Selisistat (EX 527)"
+          },
+          {
+            "count": 5897,
+            "value": "Roxadustat (FG-4592)"
+          },
+          {
+            "count": 5885,
+            "value": "G007-LK"
+          },
+          {
+            "count": 5856,
+            "value": "EED226"
+          },
+          {
+            "count": 5828,
+            "value": "SRT3025 HCl"
+          },
+          {
+            "count": 5741,
+            "value": "FLLL32"
+          },
+          {
+            "count": 5731,
+            "value": "(+)-JQ1"
+          }
+        ],
+        "unique_count": 189
+      },
+      "plate": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 28510,
+            "value": "plate44"
+          },
+          {
+            "count": 27816,
+            "value": "plate43"
+          },
+          {
+            "count": 27355,
+            "value": "plate47"
+          },
+          {
+            "count": 23814,
+            "value": "plate48"
+          },
+          {
+            "count": 23486,
+            "value": "plate46"
+          },
+          {
+            "count": 23463,
+            "value": "plate20"
+          },
+          {
+            "count": 23405,
+            "value": "plate17"
+          },
+          {
+            "count": 23057,
+            "value": "plate42"
+          },
+          {
+            "count": 22041,
+            "value": "plate41"
+          },
+          {
+            "count": 21459,
+            "value": "plate51"
+          },
+          {
+            "count": 21343,
+            "value": "plate50"
+          },
+          {
+            "count": 20525,
+            "value": "plate24"
+          },
+          {
+            "count": 20275,
+            "value": "plate52"
+          },
+          {
+            "count": 20080,
+            "value": "plate18"
+          },
+          {
+            "count": 19747,
+            "value": "plate45"
+          },
+          {
+            "count": 19033,
+            "value": "plate49"
+          },
+          {
+            "count": 17038,
+            "value": "plate19"
+          },
+          {
+            "count": 17009,
+            "value": "plate22"
+          },
+          {
+            "count": 14255,
+            "value": "plate21"
+          },
+          {
+            "count": 13599,
+            "value": "plate6"
+          }
+        ],
+        "unique_count": 52
+      },
+      "replicate": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 411710,
+            "value": "rep2"
+          },
+          {
+            "count": 351085,
+            "value": "rep1"
+          }
+        ],
+        "unique_count": 2
+      },
+      "time": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 680685,
+            "value": "24.0"
+          },
+          {
+            "count": 82110,
+            "value": "72.0"
+          }
+        ],
+        "unique_count": 2
+      }
+    }
+  },
+  "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+  "schema_version": "1.0",
+  "source_record": {
+    "admission_status": "pass_after_curation",
+    "analysis_input": {
+      "mode": "curated",
+      "path": "E:\\single_cell_perturbation_metanalysis\\data\\processed\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+      "sha256": "bd4d4879a33265d56067e35a26bc150aae40bb2bd69d738430e2d416d1fd4c3e",
+      "size_bytes": 2425098379,
+      "storage": "h5ad"
+    },
+    "cell_counts": {
+      "after_curation": 762795,
+      "before_curation": 799317,
+      "excluded_by_curation": 36522,
+      "profile_n_obs": 762795,
+      "profile_n_vars": 110983
+    },
+    "dataset_id": "sciplex3",
+    "lineage": {
+      "curation_manifest": "data\\processed\\scperturb\\rna\\v1.4\\curation-manifest.json",
+      "curation_mode": "curated",
+      "download_artifact": {
+        "name": "SrivatsanTrapnell2020_sciplex3.h5ad",
+        "sha256": "603ed16c5e25401c8a7f5bb0b2b045179701017d65dcfc6aeea71722a66cd10a",
+        "size_bytes": 2526631614,
+        "status": "downloaded"
+      },
+      "download_receipt": "data\\landing\\scperturb\\rna\\v1.4\\download-receipt.json",
+      "landing_input": "E:\\single_cell_perturbation_metanalysis\\data\\landing\\scperturb\\rna\\v1.4\\SrivatsanTrapnell2020_sciplex3.h5ad",
+      "primary_audit": "metadata\\audits\\scperturb_mvp_primary_source_validation.md",
+      "profile": "E:\\single_cell_perturbation_metanalysis\\metadata\\profiles\\scperturb\\rna\\v1.4\\sciplex3.profile.json"
+    },
+    "release_id": "scperturb_mvp_v0.1",
+    "warnings": [
+      "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, guide_id, n_counts, n_genes, perturbation_target",
+      "no raw object or count layer found; X is treated as counts"
+    ]
+  },
+  "var": {
+    "column_names": [
+      "ensembl_id",
+      "gene_symbol"
+    ],
+    "column_order": [
+      "ensembl_id"
+    ],
+    "columns": [
+      {
+        "categories_sample": [
+          "ENSG00000000003",
+          "ENSG00000000005",
+          "ENSG00000000419",
+          "ENSG00000000457",
+          "ENSG00000000460",
+          "ENSG00000000938",
+          "ENSG00000000971",
+          "ENSG00000001036",
+          "ENSG00000001084",
+          "ENSG00000001167",
+          "ENSG00000001460",
+          "ENSG00000001461",
+          "ENSG00000001497",
+          "ENSG00000001561",
+          "ENSG00000001617",
+          "ENSG00000001626",
+          "ENSG00000001629",
+          "ENSG00000001630",
+          "ENSG00000001631",
+          "ENSG00000002016"
+        ],
+        "category_count": 110938,
+        "dtype": "int32",
+        "encoding_type": "categorical",
+        "missing_count": 0,
+        "name": "ensembl_id",
+        "shape": [
+          110983
+        ],
+        "storage": "group"
+      },
+      {
+        "dtype": "object",
+        "encoding_type": "string-array",
+        "missing_count": 0,
+        "name": "gene_symbol",
+        "shape": [
+          110983
+        ],
+        "storage": "dataset",
+        "unique_count": 110983
+      }
+    ],
+    "encoding_type": "dataframe",
+    "encoding_version": "0.2.0",
+    "index": "gene_symbol",
+    "n_rows": 110983,
+    "summaries": {
+      "ensembl_id": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 2,
+            "value": "ENSG00000002586"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000124333"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000124334"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000167393"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000168939"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000169084"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000169093"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000169100"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000178605"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000182162"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000182378"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000182484"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000185203"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000185291"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000185960"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000196433"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000197976"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000198223"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000205755"
+          },
+          {
+            "count": 2,
+            "value": "ENSG00000214717"
+          }
+        ],
+        "unique_count": 110938
+      },
+      "gene_symbol": {
+        "missing_count": 0,
+        "top_values": [
+          {
+            "count": 1,
+            "value": "TSPAN6"
+          },
+          {
+            "count": 1,
+            "value": "TNMD"
+          },
+          {
+            "count": 1,
+            "value": "DPM1"
+          },
+          {
+            "count": 1,
+            "value": "SCYL3"
+          },
+          {
+            "count": 1,
+            "value": "C1orf112"
+          },
+          {
+            "count": 1,
+            "value": "FGR"
+          },
+          {
+            "count": 1,
+            "value": "CFH"
+          },
+          {
+            "count": 1,
+            "value": "FUCA2"
+          },
+          {
+            "count": 1,
+            "value": "GCLC"
+          },
+          {
+            "count": 1,
+            "value": "NFYA"
+          },
+          {
+            "count": 1,
+            "value": "STPG1"
+          },
+          {
+            "count": 1,
+            "value": "NIPAL3"
+          },
+          {
+            "count": 1,
+            "value": "LAS1L"
+          },
+          {
+            "count": 1,
+            "value": "ENPP4"
+          },
+          {
+            "count": 1,
+            "value": "SEMA3F"
+          },
+          {
+            "count": 1,
+            "value": "CFTR"
+          },
+          {
+            "count": 1,
+            "value": "ANKIB1"
+          },
+          {
+            "count": 1,
+            "value": "CYP51A1"
+          },
+          {
+            "count": 1,
+            "value": "KRIT1"
+          },
+          {
+            "count": 1,
+            "value": "RAD52"
+          }
+        ],
+        "unique_count": 110983
+      }
+    }
+  },
+  "warnings": [
+    "missing recommended obs columns: batch, batch_id, cell_type, control_status, dose, drug, drug_dose, drug_time, guide_id, n_counts, n_genes, perturbation_target",
+    "no raw object or count layer found; X is treated as counts"
+  ]
+}

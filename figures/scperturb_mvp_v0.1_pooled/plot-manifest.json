@@ -1,0 +1,259 @@
+{
+  "datasets": [
+    {
+      "cells": 65257,
+      "contrasts": 96,
+      "controls": null,
+      "dataset_id": "adamson",
+      "genes": 32738,
+      "status_counts": {
+        "warn": 96
+      }
+    },
+    {
+      "cells": 28034,
+      "contrasts": 26,
+      "controls": null,
+      "dataset_id": "dixit",
+      "genes": 23111,
+      "status_counts": {
+        "warn": 26
+      }
+    },
+    {
+      "cells": 111445,
+      "contrasts": 236,
+      "controls": null,
+      "dataset_id": "norman",
+      "genes": 33694,
+      "status_counts": {
+        "warn": 236
+      }
+    },
+    {
+      "cells": 310385,
+      "contrasts": 1832,
+      "controls": null,
+      "dataset_id": "replogle",
+      "genes": 8563,
+      "status_counts": {
+        "pass": 1832
+      }
+    },
+    {
+      "cells": 762795,
+      "contrasts": 2423,
+      "controls": null,
+      "dataset_id": "sciplex3",
+      "genes": 110983,
+      "status_counts": {
+        "pass": 2423
+      }
+    }
+  ],
+  "effect_summary": [
+    {
+      "contrasts": 96,
+      "dataset_id": "adamson",
+      "features": 32738,
+      "median_max_abs": 1.8868401050567627,
+      "median_p95_abs": 0.21602344512939453,
+      "p90_max_abs": 2.7148399353027344
+    },
+    {
+      "contrasts": 26,
+      "dataset_id": "dixit",
+      "features": 23111,
+      "median_max_abs": 1.1033239364624023,
+      "median_p95_abs": 0.1746201515197754,
+      "p90_max_abs": 1.92350435256958
+    },
+    {
+      "contrasts": 236,
+      "dataset_id": "norman",
+      "features": 33694,
+      "median_max_abs": 3.055978775024414,
+      "median_p95_abs": 0.3334370255470276,
+      "p90_max_abs": 4.359580039978027
+    },
+    {
+      "contrasts": 1832,
+      "dataset_id": "replogle",
+      "features": 8563,
+      "median_max_abs": 1.9243781566619873,
+      "median_p95_abs": 0.3743046224117279,
+      "p90_max_abs": 2.582815170288086
+    },
+    {
+      "contrasts": 2423,
+      "dataset_id": "sciplex3",
+      "features": 110983,
+      "median_max_abs": 3.4448304176330566,
+      "median_p95_abs": 0.8377022743225098,
+      "p90_max_abs": 4.808832168579102
+    }
+  ],
+  "effects_manifest": "data\\results\\scperturb\\rna\\v0.1\\effects\\pooled\\effects-manifest.json",
+  "effects_model": "treated_minus_matched_control_delta",
+  "figures": {
+    "effect_magnitude": "figures\\scperturb_mvp_v0.1_pooled\\effect_magnitude.svg",
+    "overview": "figures\\scperturb_mvp_v0.1_pooled\\mvp_overview.svg",
+    "top_gene_recurrence": "figures\\scperturb_mvp_v0.1_pooled\\top_gene_recurrence.svg"
+  },
+  "qc_summary": "metadata\\qc\\scperturb_mvp_v0.1\\qc-summary.json",
+  "release_manifest": "metadata\\releases\\scperturb_mvp_v0.1.json",
+  "report": "figures\\scperturb_mvp_v0.1_pooled\\visual_summary.md",
+  "schema_version": "1.0",
+  "top_recurrent_genes": [
+    {
+      "dataset_count": 5,
+      "gene_id": "TMEM158",
+      "hit_count": 805,
+      "max_abs_effect": 4.029745874175397
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "AREG",
+      "hit_count": 489,
+      "max_abs_effect": 3.799532091940654
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "IER3",
+      "hit_count": 473,
+      "max_abs_effect": 4.431476826503593
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "EGR1",
+      "hit_count": 445,
+      "max_abs_effect": 4.173922985075614
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TUBA1A",
+      "hit_count": 391,
+      "max_abs_effect": 3.3655805271696697
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TAC3",
+      "hit_count": 377,
+      "max_abs_effect": 3.896748123289586
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TSPAN32",
+      "hit_count": 324,
+      "max_abs_effect": 2.9299782067851727
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "NTRK1",
+      "hit_count": 319,
+      "max_abs_effect": 3.3757801305217323
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "CAMK2N1",
+      "hit_count": 278,
+      "max_abs_effect": 4.0426011515664895
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "HOMER3",
+      "hit_count": 266,
+      "max_abs_effect": 2.8375129793213767
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "TRANK1",
+      "hit_count": 259,
+      "max_abs_effect": 3.8694463295319173
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "ZNF467",
+      "hit_count": 252,
+      "max_abs_effect": 2.9102677331447104
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "HSPA1A",
+      "hit_count": 211,
+      "max_abs_effect": 3.3866328303614086
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "S100A4",
+      "hit_count": 200,
+      "max_abs_effect": 3.507230412052221
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "ARHGEF6",
+      "hit_count": 199,
+      "max_abs_effect": 4.1696807761550225
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "RHOB",
+      "hit_count": 190,
+      "max_abs_effect": 3.3034846628422585
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "CAB39L",
+      "hit_count": 168,
+      "max_abs_effect": 3.2424267685157493
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "CD226",
+      "hit_count": 153,
+      "max_abs_effect": 3.313518444368631
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "HIST1H3H",
+      "hit_count": 144,
+      "max_abs_effect": 2.4952849058757836
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "FERMT2",
+      "hit_count": 141,
+      "max_abs_effect": 3.0842889171699883
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "NES",
+      "hit_count": 126,
+      "max_abs_effect": 3.876863966389735
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "ELK3",
+      "hit_count": 94,
+      "max_abs_effect": 3.095288582891951
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "RNF208",
+      "hit_count": 94,
+      "max_abs_effect": 2.708609913408832
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "GDAP1",
+      "hit_count": 91,
+      "max_abs_effect": 3.2957908856612788
+    },
+    {
+      "dataset_count": 5,
+      "gene_id": "PLCG2",
+      "hit_count": 89,
+      "max_abs_effect": 3.3542213459467143
+    }
+  ]
+}

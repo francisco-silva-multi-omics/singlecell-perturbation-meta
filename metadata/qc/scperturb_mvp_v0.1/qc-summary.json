@@ -1,0 +1,48 @@
+{
+  "control_detection": {
+    "control_status_columns": [
+      "control_status",
+      "is_control"
+    ],
+    "control_values": [
+      "control",
+      "dmso",
+      "mock",
+      "negative_control",
+      "non-targeting",
+      "non_targeting",
+      "nontargeting",
+      "scramble",
+      "untreated",
+      "vehicle"
+    ],
+    "perturbation_columns": [
+      "perturbation",
+      "condition"
+    ]
+  },
+  "dataset_count": 5,
+  "dataset_status_counts": {
+    "warn": 5
+  },
+  "outputs": {
+    "dataset_qc_csv": "metadata\\qc\\scperturb_mvp_v0.1\\dataset-qc.csv",
+    "dataset_qc_json": "metadata\\qc\\scperturb_mvp_v0.1\\dataset-qc.json",
+    "perturbation_qc_csv": "metadata\\qc\\scperturb_mvp_v0.1\\perturbation-qc.csv",
+    "perturbation_qc_json": "metadata\\qc\\scperturb_mvp_v0.1\\perturbation-qc.json"
+  },
+  "perturbation_count": 2624,
+  "perturbation_status_counts": {
+    "control": 5,
+    "fail": 241,
+    "pass": 2020,
+    "warn": 358
+  },
+  "release_id": "scperturb_mvp_v0.1",
+  "release_manifest": "metadata\\releases\\scperturb_mvp_v0.1.json",
+  "schema_version": "1.0",
+  "thresholds": {
+    "min_cells_per_perturbation": 50,
+    "min_control_cells_per_dataset": 50
+  }
+}
